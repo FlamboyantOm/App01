@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+--> 
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+		
+        <title>FlamboyantOm</title>
+    </head>
+    <body>
+		
+		
+        <form>Change Theme Color:
+			<select name="backGround" size="1" onChange=(document.bgColor=backGround.options[backGround.selectedIndex].value)>
+				<option value="000000">[Black]
+				<option value="730200">[Dark Red]
+				<option value="231800">[Brown]
+				<option value="044302">[Dark Green]
+				<option value="0D09A3">[Dark Blue]
+				<option value="444444">[Gray]
+				<option value="FF0400">[Red]
+				<option value="EFE800">[Yellow]
+				<option value="05EF00">[Green]
+				<option value="0206FF">[Blue]
+				<option value="AE08EF">[Violet]
+				<option value="FF8C8A">[Mauve]
+				<option value="FFCCCC">[Peach]
+				<option value="FFCC99">[Orange]
+				<option value="D5CCBB">[Tan]
+				<option value="DDDDDD">[Light Gray]
+				<option value="FBFF73">[Light Yellow]
+				<option value="7CFF7D">[Light Green]
+				<option value="A6BEFF">[Light Blue]
+				<option value="FFFFFF" selected>[White]
+			</select>
+			
+			<button onclick="editall()"> Edit me if u wish</button>
+				<br/>
+			
+			<center>
+			<p>
+			This is my test content you 
+			can edit if you with to ☺ ☺ ☺
+			</p>
+			<p>
+			This is how you can edit me !!!
+			</p>
+			</center>
+			<script>
+				javascript:document.body.contentEditable='true'; document.designMode='on';
+			</script>
+		</form>	
+    </body>
+</html>

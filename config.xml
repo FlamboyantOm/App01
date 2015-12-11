@@ -2,7 +2,7 @@
 <widget id="com.phonegap.helloworld" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Omkar Thorat</name>
     <description>
-        Simple event app
+        Backgroud color change and edit your screen
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
 		Omkar Thorat
